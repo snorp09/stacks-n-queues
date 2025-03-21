@@ -48,6 +48,7 @@ public class StackDemo {
     public static void insertStack(Stack<Integer> stack){
         if(stack.getCurrentLocation() == stack.getSize()){
             System.out.println("Can't add to stack! It'll overflow!");
+            return;
         }
         Scanner intScanner = new Scanner(System.in);
         while(true){
@@ -94,6 +95,7 @@ public class StackDemo {
 
     public static void main(String[] args) {
         Stack<Integer> numbStack = new Stack<>(Integer.class, 12);
+        fillStack(numbStack);
         stackOptions(numbStack);
     }
 }
