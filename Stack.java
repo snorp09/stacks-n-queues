@@ -3,8 +3,6 @@
  * Description: A simple implementation of the Stack data structure.
  * Citation: https://stackoverflow.com/questions/529085/how-can-i-create-a-generic-array-in-java
  */
-package com.cs145group;
-
 import java.lang.reflect.Array;
 import java.util.Random;
 
